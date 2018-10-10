@@ -1323,7 +1323,6 @@ notebook view {
 }
 
 notebook > stack:not(:only-child) {
-    background-color: @theme_base_color;
     border: 1px solid black;
     box-shadow: none;
 }
@@ -1349,7 +1348,6 @@ notebook tab:checked {
 }
 
 notebook header.top tab {
-    margin-top: 2px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-color: black;
@@ -1361,7 +1359,6 @@ notebook header.top tab:checked {
 }
 
 notebook header.bottom tab {
-    margin-bottom: 2px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-top-color: black;
@@ -1378,7 +1375,6 @@ notebook header.bottom tab:checked {
 }
 
 notebook header.left tab {
-    margin-left: 2px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-right-color: black;
@@ -1393,7 +1389,6 @@ notebook header.right tab {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-left-color: black;
-    margin-right: 2px;
 }
 
 notebook header.right tab:checked {
